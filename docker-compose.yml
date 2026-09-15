@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: reviewradar-postgres
+    environment:
+      POSTGRES_USER: reviewradar
+      POSTGRES_PASSWORD: reviewradar
+      POSTGRES_DB: reviewradar
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U reviewradar -d reviewradar"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

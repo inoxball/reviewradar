@@ -1,0 +1,95 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reviewradar"
+version = "0.1.0"
+description = "AI-powered app review intelligence: ingestion, topics, anomalies, semantic search."
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy[asyncio]>=2.0.30",
+    "asyncpg>=0.29",
+    "aiosqlite>=0.20",
+    "alembic>=1.13",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "httpx>=0.27",
+    "google-play-scraper>=1.2.7",
+    "typer>=0.12",
+    "tenacity>=8.3",
+    "pyyaml>=6.0",
+    "numpy>=1.26",
+    "pgvector>=0.3",
+    "py3langid>=0.3",
+]
+
+[project.optional-dependencies]
+# Local embedding models. Install torch separately to pick the right CUDA/CPU build.
+ml = ["sentence-transformers>=3.0", "scikit-learn>=1.4"]
+# Reply drafting: QLoRA fine-tuning of a small local model (`reviewradar replies train`).
+finetune = ["peft>=0.13", "trl>=0.12", "accelerate>=1.0", "bitsandbytes>=0.45", "datasets>=2.20"]
+# Demo web panel: `reviewradar serve`.
+web = ["fastapi>=0.115", "uvicorn>=0.30"]
+dev = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "scikit-learn>=1.4",
+    "pytest>=8.2",
+    "pytest-asyncio>=0.23",
+    "respx>=0.21",
+    "ruff>=0.5",
+    "mypy>=1.10",
+    "types-PyYAML",
+    # Embedded PostgreSQL + pgvector: `pgserver:///` database URLs and the postgres test suite.
+    "pgserver>=0.1.4",
+]
+
+[project.scripts]
+reviewradar = "reviewradar.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/reviewradar"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+markers = [
+    "live: hits real store endpoints (deselected by default)",
+    "ml: loads real ML models from the local Hugging Face cache (deselected by default)",
+    "postgres: runs against an embedded PostgreSQL (skipped when pgserver is missing)",
+]
+addopts = "-m 'not live and not ml'"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "ASYNC", "PT", "N"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = [
+    "google_play_scraper.*",
+    "pgvector.*",
+    "py3langid.*",
+    "sentence_transformers.*",
+    "pgserver.*",
+    "asyncpg.*",
+    "sklearn.*",
+]
+ignore_missing_imports = true
+
+# Training libraries without complete type information, used only in `replies/training.py`.
+[[tool.mypy.overrides]]
+module = ["datasets.*", "trl.*", "peft.*", "bitsandbytes.*"]
+follow_imports = "skip"
+ignore_missing_imports = true

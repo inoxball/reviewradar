@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReviewRadar</title>
+    <link rel="stylesheet" href="/static/css/app.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+
+        <label class="field">
+          <span class="field-label">App</span>
+          <select id="app-select" aria-label="App"></select>
+        </label>
+
+        <nav class="nav" aria-label="Sections">
+          <span class="nav-group">Insights</span>
+          <a href="#/overview" data-route="overview">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></svg>
+            Overview
+          </a>
+          <a href="#/topics" data-route="topics">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="8" r="4" /><circle cx="17.5" cy="7" r="2.5" /><circle cx="15" cy="17" r="4" /></svg>
+            Topics
+          </a>
+          <a href="#/reviews" data-route="reviews">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" /></svg>
+            Reviews
+          </a>
+          <a href="#/search" data-route="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+            Search
+          </a>
+          <a href="#/replies" data-route="replies">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5H4v11h5l4 4v-4h7z" /><path d="M8 9h8M8 12h5" /></svg>
+            Reply drafting
+          </a>
+          <span class="nav-group">Under the hood</span>
+          <a href="#/pipeline" data-route="pipeline">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="2.5" /><circle cx="19" cy="6" r="2.5" /><circle cx="19" cy="18" r="2.5" /><path d="M7.5 12h4l5-5.5M11.5 12l5 5.5" /></svg>
+            Pipeline
+          </a>
+          <a href="#/evaluation" data-route="evaluation">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" /></svg>
+            Search quality
+          </a>
+          <a href="#/compare" data-route="compare">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="5" height="16" rx="1.5" /><rect x="10" y="4" width="5" height="16" rx="1.5" /><rect x="17" y="4" width="4" height="16" rx="1.5" /></svg>
+            Search modes
+          </a>
+          <a href="#/api" data-route="api">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16" /></svg>
+            API playground
+          </a>
+        </nav>
+        <div class="sidebar-footer">
+          <button class="text-button" id="api-toggle" type="button" aria-expanded="false" aria-controls="api-drawer">API inspector <span class="count" id="api-count">0</span></button>
+        </div>
+      </aside>
+
+      <div class="main">
+        <header class="page-header">
+          <div>
+            <h1 id="page-title">ReviewRadar</h1>
+          </div>
+        </header>
+        <main class="view" id="view" tabindex="-1"></main>
+      </div>
+    </div>
+
+    <aside class="drawer" id="api-drawer" hidden aria-label="API inspector">
+      <div class="drawer-header">
+        <div>
+          <strong>API inspector</strong>
+        </div>
+        <button class="icon-button" id="api-close" type="button" aria-label="Close API inspector">✕</button>
+      </div>
+      <div class="drawer-body" id="api-calls"></div>
+      <div class="drawer-footer">
+        <a href="#/api">API playground</a>
+        <a href="/docs" target="_blank" rel="noopener">Swagger UI ↗</a>
+        <a href="/openapi.json" target="_blank" rel="noopener">openapi.json ↗</a>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" hidden></div>
+
+    <script type="module" src="/static/js/main.js"></script>
+  </body>
+</html>

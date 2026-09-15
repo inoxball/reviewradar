@@ -1,0 +1,29 @@
+# Search evaluation queries for Duolingo.
+#
+# Chosen from topics observed in the ingested reviews (ads, energy, streaks, pricing,
+# crashes, speech recognition, new courses, ...). Several queries are in Portuguese,
+# Spanish, German and Japanese to measure cross-lingual retrieval. Relevance judgments
+# live in duolingo_search_judgments.yaml.
+
+app: duolingo
+queries:
+  - { id: ads-too-many, text: "too many ads" }
+  - { id: energy-system, text: "the energy system limits how many lessons I can do" }
+  - { id: crash-lesson, text: "app crashes or freezes during a lesson" }
+  - { id: streak-lost, text: "I lost my streak" }
+  - { id: price-too-high, text: "subscription is too expensive" }
+  - { id: speech-recognition, text: "microphone does not recognize my voice in speaking exercises" }
+  - { id: chess-course, text: "learning chess" }
+  - { id: math-music, text: "math and music courses" }
+  - { id: login-account, text: "cannot log in to my account" }
+  - { id: notifications, text: "annoying notifications" }
+  - { id: ai-content, text: "complaints about AI generated content" }
+  - { id: missing-language, text: "please add more languages like Hindi" }
+  - { id: pt-ads, text: "muitos anúncios" }
+  - { id: pt-energy, text: "a energia acaba muito rápido" }
+  - { id: es-price, text: "demasiado caro" }
+  - { id: es-kids, text: "mis hijos aprenden inglés" }
+  - { id: de-ads, text: "zu viel Werbung" }
+  - { id: ja-praise, text: "毎日楽しく勉強できる" }
+  - { id: travel, text: "helped me prepare for a trip abroad" }
+  - { id: leagues, text: "leaderboard and league competition" }

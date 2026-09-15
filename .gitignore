@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.pgdata/
+
+# Reply drafting: generated datasets and trained adapters
+data/replies/dataset/
+models/
+.claude/
+.idea/
+
+# Markdown is for local development only; the reply guidelines are runtime configuration
+*.md
+!config/reply_guidelines.md

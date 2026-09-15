@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-14T22:39:06.171980+00:00",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "source": "written",
+  "examples": 56,
+  "adapter": {
+    "created_at": "2026-09-14T19:18:07.424057+00:00",
+    "dataset": {
+      "train.jsonl": "65381ca91935456d3a42f0a8cbdf3b5da44d3370fbc88a9eb04bcf2764f95827",
+      "eval.jsonl": "e77fe0d520a68ec3f98b0eaa9197581064729dceb9d1ee473080599d45a92856"
+    },
+    "report": {
+      "adapter_dir": "models\\replies\\qwen3-1.7b-lora",
+      "steps": 448,
+      "train_loss": 1.379433309925454,
+      "eval_loss": 1.3690087795257568,
+      "runtime_seconds": 3015.604232100013,
+      "peak_memory_gb": 2.4310144
+    },
+    "system_prompt": "You write short developer replies to app store reviews, in the review's language and within 350 characters. Write {app_name} and {support_contact} instead of brand names and contact details."
+  },
+  "generators": [
+    {
+      "name": "reference",
+      "replies": 56,
+      "pass_rate": 1.0,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 1.0,
+        "within_limit": 1.0,
+        "no_foreign_brand_or_contact": 1.0,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 1.0
+      },
+      "opening_diversity": 1.0,
+      "median_chars": 189.0,
+      "seconds_per_reply": 0.0
+    },
+    {
+      "name": "fine-tuned",
+      "replies": 56,
+      "pass_rate": 0.9464285714285714,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 1.0,
+        "within_limit": 1.0,
+        "no_foreign_brand_or_contact": 1.0,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 0.9464285714285714
+      },
+      "opening_diversity": 0.6428571428571429,
+      "median_chars": 193.5,
+      "seconds_per_reply": 1.9654585035714263
+    }
+  ]
+}

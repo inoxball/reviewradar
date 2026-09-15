@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-14T22:36:41.424965+00:00",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "source": "written",
+  "examples": 56,
+  "adapter": {
+    "created_at": "2026-09-14T22:22:02.371207+00:00",
+    "dataset": {
+      "train.jsonl": "2d8a25b1aa7669ca84c813b9193d84335c25237b711fda9fdb88925c4d4ae270",
+      "eval.jsonl": "1bd692ba3b5d36a200bc9550c938ecd9a495242e9c4c682ab9de00a62179af35"
+    },
+    "report": {
+      "adapter_dir": "models\\replies\\qwen3-1.7b-lora",
+      "steps": 366,
+      "train_loss": 1.4564570765026281,
+      "eval_loss": 1.405928134918213,
+      "runtime_seconds": 2455.045804399997,
+      "peak_memory_gb": 2.431042048
+    },
+    "system_prompt": "You write short developer replies to app store reviews, in the review's language and within 350 characters. Write {app_name} and {support_contact} instead of brand names and contact details."
+  },
+  "generators": [
+    {
+      "name": "reference",
+      "replies": 56,
+      "pass_rate": 1.0,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 1.0,
+        "within_limit": 1.0,
+        "no_foreign_brand_or_contact": 1.0,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 1.0
+      },
+      "opening_diversity": 1.0,
+      "median_chars": 189.0,
+      "seconds_per_reply": 0.0
+    },
+    {
+      "name": "zero-shot",
+      "replies": 56,
+      "pass_rate": 0.9107142857142857,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 0.9821428571428571,
+        "within_limit": 0.9642857142857143,
+        "no_foreign_brand_or_contact": 0.9642857142857143,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 0.9821428571428571
+      },
+      "opening_diversity": 0.8392857142857143,
+      "median_chars": 166.0,
+      "seconds_per_reply": 1.383433832143055
+    },
+    {
+      "name": "retrieval",
+      "replies": 56,
+      "pass_rate": 0.8392857142857143,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 0.8571428571428571,
+        "within_limit": 1.0,
+        "no_foreign_brand_or_contact": 1.0,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 0.9821428571428571
+      },
+      "opening_diversity": 0.9464285714285714,
+      "median_chars": 193.0,
+      "seconds_per_reply": 1.6536194125001202
+    },
+    {
+      "name": "fine-tuned",
+      "replies": 56,
+      "pass_rate": 1.0,
+      "check_rates": {
+        "non_empty": 1.0,
+        "right_language": 1.0,
+        "within_limit": 1.0,
+        "no_foreign_brand_or_contact": 1.0,
+        "valid_placeholders": 1.0,
+        "not_copied": 1.0,
+        "complete": 1.0
+      },
+      "opening_diversity": 0.5892857142857143,
+      "median_chars": 191.5,
+      "seconds_per_reply": 1.9674608482143543
+    }
+  ]
+}

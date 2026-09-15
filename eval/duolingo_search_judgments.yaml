@@ -1,0 +1,1146 @@
+app: duolingo
+annotator: single AI annotator, 2026-09-13
+notes: 'Pooled from the top 10 of lexical, semantic and hybrid search over 8,268 Duolingo reviews. Candidates were listed
+  by store and id, so rankings were not visible while grading. Grades: 2 = directly about the query''s need, 1 = partial or
+  passing mention, 0 = not relevant. Relevance is language-independent. Single AI annotator without adjudication: treat the
+  numbers as indicative and replace or extend with human judgments before drawing firm conclusions.'
+queries:
+- id: ads-too-many
+  text: too many ads
+  judgments:
+  - store: app_store
+    id: '14532709452'
+    grade: 2
+    text: 广告太多！！！ 广告多的要死，不充会员就一直骚扰
+  - store: google_play
+    id: 017c2288-e07c-4d2f-ba36-fde793e72bac
+    grade: 2
+    text: to many ads
+  - store: google_play
+    id: 0d6fdc00-428e-4717-bea8-b449f7750269
+    grade: 2
+    text: Too many ads and No gems..I paid for the super lite and it was good at first. Then after each challenge when I was
+      supposed to get gems I would complete the task and get zero gems.. Then the ads started to increase.. I'm ok with the
+      ads in the beginning but now since I've paid they increased the ads and stopped giving the gems. I cancelled my subscription
+      today even though I just signed up August 9, 2026.
+  - store: google_play
+    id: 0fd07111-7daa-4b50-99cb-ce12e7106dd5
+    grade: 2
+    text: es genial pero trae demasiados anuncios
+  - store: google_play
+    id: 643b08f2-74b0-4c37-b964-a5a6ceb7517a
+    grade: 2
+    text: Too many ads
+  - store: google_play
+    id: 69dc6aa3-a56a-478f-a095-03e823dd4608
+    grade: 2
+    text: Lot of ads
+  - store: google_play
+    id: a21e37b8-2b00-4572-a7ba-28bb60c5a436
+    grade: 2
+    text: many ad 😡 Big problem
+  - store: google_play
+    id: a3700ce5-0d9e-4f46-aa1f-d234228245c1
+    grade: 2
+    text: too many ads
+  - store: google_play
+    id: b93b58bb-26b1-4db7-9372-f44d269d4d09
+    grade: 2
+    text: muitos anúncios
+  - store: google_play
+    id: cb21afad-840c-4d6b-bc51-44234ab4057a
+    grade: 2
+    text: muchos anuncios
+  - store: google_play
+    id: d3d9ad42-6821-4888-9d08-16e6d2cfce25
+    grade: 2
+    text: too many ads have to pay for everything pronounced words wrong very annoying do not recommend
+  - store: google_play
+    id: e0ded7bf-96c8-481f-94a2-705482ec04e0
+    grade: 2
+    text: too many ads
+  - store: google_play
+    id: e6085849-ee10-4793-9ecc-a4922eb47893
+    grade: 2
+    text: app is okay but too many ads, and even you should give free swags for streak like it's been given in matiks
+- id: energy-system
+  text: the energy system limits how many lessons I can do
+  judgments:
+  - store: app_store
+    id: '14510596865'
+    grade: 2
+    text: Begrenzte lernzeit Wenn man seine Energie verbraucht hat ist man gezwungen mit Lernen aufzuhören oder 600 gemacht
+      zu zahlen um wieder Energie zu bekommen.Duolingo beste aber wegen dem kann ich es nicht die ganze zeit nutzen.dehalb
+      nur 3 Sterne sonst währen es 5 gewesen.
+  - store: app_store
+    id: '14530608399'
+    grade: 2
+    text: Energy is terrible Always gives me 1 energy, always 1 energy away from completing a lesson
+  - store: app_store
+    id: '14532450414'
+    grade: 2
+    text: энергия когда сделают чтоб урок можно было закончить когда кончилась энергия или показывали сколько урок энергии
+      заберет будет 5
+  - store: app_store
+    id: '14535388609'
+    grade: 2
+    text: Okay but why do we have the little energy thing? I’m about to loose my streak because my energy is low and what’s
+      the point of learning if it’s only limited?
+  - store: google_play
+    id: 931c2c7d-aea9-4e67-a8bd-1e7857fb4188
+    grade: 2
+    text: é um bom app, já aprendi várias palavras mas esse esquema de energia deveria ser mais funcional. Alguns dias entro
+      e consigo fazer só uma lição, sendo que no começo conseguia fazer as 4 e sobrava energia :/ bem abusivo ter que pagar
+      pra poder fazer a lição pq hoje mesmo não tinha energia nem pra UMA lição
+  - store: google_play
+    id: bd262cf5-109b-46f9-8dd1-6f57c9a3d725
+    grade: 2
+    text: después que la actualizaran su método de energía en las lecciones lo arruinó ,ahora dejo de aprender por causa de
+      la energía que por mis errores como era antes
+  - store: google_play
+    id: c2a34d6e-b1b6-44c3-aa5a-5f8e4990d46f
+    grade: 2
+    text: Good however the energy instead of lives is a pain, it feels the learning i can do is very limited, with lives i
+      can do as many lessons i want to as lives only go down if i make a mistake but with energy it constantly goes down and
+      I can only do 2 or 3 lessons a day. And then energy takes hours to recharge, 24hrs to recharge fully from 0. That's
+      the only complaint, please move back to lives
+  - store: google_play
+    id: e01e1986-7202-4798-bd4a-0ad421702db9
+    grade: 2
+    text: lo malo es con energía uno queriendo aprender todo y hay que espera eso es muy malo eliminen las energia
+  - store: google_play
+    id: f5ad46bf-626e-431f-8b7a-3501981655a3
+    grade: 2
+    text: Extremely good, but remove the 'limited energy for non-premium users' thing. I can only do like, 2 lessons per day
+      before running out of energy.
+  - store: google_play
+    id: fae2486c-7372-4b9e-b76f-2817ca6fd4a0
+    grade: 2
+    text: Energie reicht nur für zwei Unterrichten obwohl ich 0 Fehler habe
+- id: crash-lesson
+  text: app crashes or freezes during a lesson
+  judgments:
+  - store: app_store
+    id: '14492950704'
+    grade: 2
+    text: The app is crashes On iPad Pro 11 the app crashes sometimes at lessons with loosing progress
+  - store: app_store
+    id: '14503045695'
+    grade: 2
+    text: App Absturz beim Laden der Lektionen Meine Erfahrungen sind leider nicht gut. Angefangen eine neue Sprache zu lernen
+      und dann wird man gleich beim Laden der 2. Lektion daran gehindert, da die App beim Laden dieser abstürzt. Schade. Mal
+      schauen was die Konkurrenz so macht.
+  - store: app_store
+    id: '14503624444'
+    grade: 2
+    text: バグってる レッスンしてたらアプリが固まって動かなくなる。 レッスンコンプリートのクエストが出来ない
+  - store: app_store
+    id: '14507870424'
+    grade: 2
+    text: Aplicativo fecha sozinho No meio da lição, o aplicativo pode simplesmente fechar sozinho, fazendo você perder todo
+      o progresso, junto da energia, que te impede de fazer mais lições depois, além de diminuir o ganho a cada 5 acertos
+      seguidos. Uma hora, você ganha de 4-5, depois, quando fecha e volta, ganha 1 nas de 5, 10 e 15. Fora disso, é divertido,
+      apesar de eu também não concordar com as missões envolvendo minutos de estudo, que são bastante exagerados pra quem
+      não tem o premium
+  - store: app_store
+    id: '14516923497'
+    grade: 0
+    text: 学習アプリなのに学習をさせてくれないのはおかしい 今700日弱ほどこのアプリを利用している受験生です。 皆さんが酷評しているアプリの見た目などは、ずっとやっていると何度も変わって慣れるので個人的には気になりません。あと、このアプリを利用してきたおかげで、学校の定期テストなどでも良い結果を残せてきました。ただ、一年ほど前に、体力のシステムが、ハート5個でミスをしたら1個減るという「間違えなければいくらでもレッスンができる」仕組みが、エナジー？(⚡️みたいな)というミスをしようが正解しようが体力が減っていく仕組みに変わりました。そして、このアプリにあるリーグで一位になろうとやる気になって勉強しようとしても、全問正解しようと減っていくので一位になんてなれるわけがありません。運営が課金モードを推奨したいのはわかっているのですが、それが見え見えになってきているし、学びたいユーザーがいるのに学習ができないのは、学習アプリとしておかしいし、本末転倒なのでは？同級生にもこのアプリを使っている人は何人もいますが、私のような学生はお金をアプリにつかえる人は少ないし軽い気持ちで始めた人にも厳しいです。ユーザーの年齢層や始めたばかりの人のことも考えてシステムをつくってほしいです。
+  - store: app_store
+    id: '14527429275'
+    grade: 2
+    text: 'Not returning my energy then app crashed You need energy to learn after the app was updated. You only have limited
+      free energy every day (for more, you need to buy). Sometimes the app crashes, and the ongoing lesson is completely lost
+      and have to be started over again. In this case, the app doesn’t return the energy that has been cost before the crash.
+      It means you’ll need double number of energy if the lesson is interrupted by an app crash. Update: Recently the app
+      crashes almost every day. It really annoys me.'
+  - store: app_store
+    id: '14529731453'
+    grade: 2
+    text: バグが多過ぎる 近頃バグが多過ぎる。せっかく順調に全問正解していても、最後の問題辺りでアプリがフリーズする、または勝手に閉じてしまう。ライフは減ったままの状態で、また１問目からやり直しさせられる。無料分でレッスンさせてもらっている身なので我慢しなければならないのかもしれないが、やたらCMを見させられる。課金すればこのようなバグは起こらないのか？とにかくCMを見せられるので、制限ありのブースト時間がどんどん減っていってしまう。
+      以前はこんなことはなかったが、 最近どうしたことだろう？
+  - store: app_store
+    id: '14531708716'
+    grade: 0
+    text: Less than one star I wanted to keep my streak I know the apps freezes but I wanted to have a streak without any
+      freezes and I was literally finishing my lesson at 11:59 and the app made me watch an add therefore I lost my streak
+      of zero freezes depending what time they should give us a choice to make it whether we want to use a streak freeze or
+      do two lesson to make it up dumb do not get it.
+  - store: app_store
+    id: '14536979590'
+    grade: 2
+    text: зависает Приложение иногда зависает из-за чего я не могу завершить урок. Начинает долго проверять и зависает после.
+      либо после ввода слов с помощью клавиатуры зависает. Иногда они слышит, что я произношу и засчитывает как ошибку.
+  - store: app_store
+    id: '14540163335'
+    grade: 1
+    text: Amazing but sometimes unreliable It’s is one of the best apps I have ever downloaded but recently it has been bugging
+      out saying I haven’t done my lessons for example I did my lesson yesterday but it has just not registered that I did
+      it I can see I did and it said I did but this morning it said that I used a streak freeze ruining my no freeze September
+      plan
+  - store: google_play
+    id: ec77c049-e17c-48e2-b470-2f1b19eb3806
+    grade: 1
+    text: Antes no tenia ningun problema con la aplicación, pero desde hace un tiempo para acá, la aplicación tiene fallos
+      en su sistema. A veces me da ejercicios como si fuera la primera vez que abro la aplicación, otra veces no guarda mi
+      lección hecha del día y al día siguiente me aparece que se utilizo un protector de racha, igual que si yo no hubiera
+      hecho la lección del día anterior.
+- id: streak-lost
+  text: I lost my streak
+  judgments:
+  - store: app_store
+    id: '14515381458'
+    grade: 0
+    text: やる気喪失た しばらく出来なかった時があり、再度やる気を出してチャレンジしたら、復習と称してかなり初級まで戻ったところからの練習になってしまった。一気にやる気なくなりました。
+  - store: app_store
+    id: '14524981610'
+    grade: 1
+    text: não está CONTABILIZA LIÇOES FEITAS Já tenho mais de 1200 dias de streak, porem nas ultimas semanas já teve 3 dias
+      em que fiz o exercicio, sai do app antes de abrir os bonus (que inclusive é muito chato) e ele nao contabilizou, fazendo
+      eu usar o freeze para não perder o streak.
+  - store: app_store
+    id: '14531708716'
+    grade: 2
+    text: Less than one star I wanted to keep my streak I know the apps freezes but I wanted to have a streak without any
+      freezes and I was literally finishing my lesson at 11:59 and the app made me watch an add therefore I lost my streak
+      of zero freezes depending what time they should give us a choice to make it whether we want to use a streak freeze or
+      do two lesson to make it up dumb do not get it.
+  - store: app_store
+    id: '14534731829'
+    grade: 0
+    text: Lwk fun I come on to keep my streak up and some days I just want to get it over with but sometimes Im locked in
+      and end up doing 10 lessons in a few minutes
+  - store: app_store
+    id: '14534870187'
+    grade: 2
+    text: No money plz! So first of all it’s stupid to pay for something your learning bc I have NO ENERGY LEFT BC OF YOU
+      GUYS AND I LOST MY STREAK! OKAY AND IM REALLY REALLY SAD ABOUT IT. 😭😭😢😢😭😭😢😢😭😭😢😭😭. YOU GUYS SHOULD NOT MAKE PEOPLE PAY
+      FOR THIS IT IS DUMB!!!!!!!!!!!!!!!!!!! PLZ FIX IT
+  - store: app_store
+    id: '14535407970'
+    grade: 0
+    text: No longer usable I have an over 2000 day streak and I can no longer do more than two lessons without paying with
+      the new energy format. Of course, I have to keep pressing the “Lose my progress” button at the end of a lesson where
+      I got everything right.
+  - store: app_store
+    id: '14536374235'
+    grade: 0
+    text: Lost Even though i won Duo
+  - store: app_store
+    id: '14541213523'
+    grade: 1
+    text: Please When I reached 167 day streak it said 166
+  - store: google_play
+    id: 194eab07-7c01-4d42-8903-064664294ec1
+    grade: 2
+    text: I had a 122-day Korean learning streak as of July 8, which I worked very hard to build. Unfortunately, I was involved
+      in an accident and was unable to continue my lessons for some time. When I returned, I was heartbroken to see my streak
+      was gone. It wasn’t because I lost interest or forgot. I truly love learning Korean and would be incredibly grateful
+      if Duolingo could consider restoring my 122-day streak. It would mean so much to me. 🥹💚
+  - store: google_play
+    id: 47f49577-cde7-4598-bb12-4573f5ac533e
+    grade: 2
+    text: 1 minute mistake and I lost a 3-year streak while I had multiple streak freezes
+  - store: google_play
+    id: 55504473-cae6-4018-b6d0-c8742c295c9b
+    grade: 0
+    text: voy lento
+  - store: google_play
+    id: 96bc646a-9a8c-41a2-83df-90be14b8b834
+    grade: 0
+    text: eu ameiiiii eu perdi rápido
+  - store: google_play
+    id: cbb6f016-944f-42a4-847a-6329acc588a9
+    grade: 2
+    text: tenía racha y inició sesión y la perdí
+- id: price-too-high
+  text: subscription is too expensive
+  judgments:
+  - store: app_store
+    id: '14520304428'
+    grade: 2
+    text: Zu teuer Zu teuer
+  - store: app_store
+    id: '14524193117'
+    grade: 0
+    text: Consume tooooooo much of storage Consume too much of storage space!
+  - store: app_store
+    id: '14530106512'
+    grade: 2
+    text: Muito caro o plano Bom, mais é muito caro
+  - store: app_store
+    id: '14534645344'
+    grade: 1
+    text: Subscribe ??? Every single app and website wants you to pay a monthly fee and subscribe …no.
+  - store: app_store
+    id: '14541328084'
+    grade: 2
+    text: Good Too expensive
+  - store: google_play
+    id: 01536963-5210-44e5-b096-6324b1d3f32a
+    grade: 2
+    text: solid learning app but the membership charges are insanely high. forgot about my free trial (no reminders it was
+      ending like they claimed) and now im $200 out of pocket. guess I won't eat for the next week.
+  - store: google_play
+    id: 643b08f2-74b0-4c37-b964-a5a6ceb7517a
+    grade: 0
+    text: Too many ads
+  - store: google_play
+    id: a3700ce5-0d9e-4f46-aa1f-d234228245c1
+    grade: 0
+    text: too many ads
+  - store: google_play
+    id: d71efe5f-8652-4989-a72e-0119c9a4b5d0
+    grade: 1
+    text: won't let me cancel subscription and keep charging my card but saying I don't have a subscription.
+  - store: google_play
+    id: e0ded7bf-96c8-481f-94a2-705482ec04e0
+    grade: 0
+    text: too many ads
+- id: speech-recognition
+  text: microphone does not recognize my voice in speaking exercises
+  judgments:
+  - store: app_store
+    id: '14492958687'
+    grade: 2
+    text: 音声入力がなぁ･･･ 良い感じなんですけど、リスニングの時に自分の声が認識されにくいです。
+  - store: app_store
+    id: '14516276524'
+    grade: 2
+    text: スピーキングは一生上手くならない 概ねよかったんですが、スピーキングだけはどう悪いのか、どう改善したらいいのか分からないものがあって、ただただストレスだった。 ちょっとずつニュアンスを変えて認識される運ゲー。 認識されてもそれでどうして認識されたのか分からないから、同じ単語きた時に再現できずに詰む。
+      別にそこまで求めてないからスピーキングはオフでいいやとなった。
+  - store: app_store
+    id: '14520059128'
+    grade: 2
+    text: スピーキングの時 スピーキングの時だけちゃんと声出してやっているのに全く反応してくれない時があるのでそこだけ改善してほしい
+  - store: google_play
+    id: 2f7da155-6183-4eac-9e9f-f1e5f76e298e
+    grade: 1
+    text: La aplicación es necia en presentar ejercicios de voz que no se pueden suprimir. Adicilnal pide permisos para grabar
+      la voz.
+  - store: google_play
+    id: 317d509e-b126-42ce-933e-ac1afa673451
+    grade: 2
+    text: no me oye audio
+  - store: google_play
+    id: 80103092-0d54-4220-9252-97f8baec5f07
+    grade: 2
+    text: Llevo meses reportando un error de que no se me escuchan los ejercicios de audio y no lo han arreglado
+  - store: google_play
+    id: 9f83a6b7-fe9d-4a76-8fe3-f8a2655fc570
+    grade: 2
+    text: la última actualización no me deja usar el micrófono
+  - store: google_play
+    id: b57a44e9-fe3e-4a83-a9b4-bbbbabeca4bd
+    grade: 2
+    text: O Duolingo me ajuda muito,sempre estudo para as provas de inglês com ele. Só não gosto muito quando tem aquelas
+      questões de microfone,e eu acabo "errando" a resposta,pois o Duolingo não conseguiu escutar,mesmo estando tudo em silêncio,somente
+      minha voz em movimento,e eu disse alto,e direito.
+  - store: google_play
+    id: be51b0ba-4c1d-43e4-99c3-572741caf141
+    grade: 2
+    text: Soy un usuario de huawei, y todo normal por el momento pero tengo un problema con el micrófono (esta avilitada en
+      ajustes y sirve en otras apps ) no puedo hacer los ejercicios donde se ocupa el micrófono, en otro teléfono que no es
+      un Huawei si puedo hacer los ejercicios. Solo para que si pudieran dar soporte a los equipos huawei
+  - store: google_play
+    id: dfaea451-c3c8-4938-99f7-31b726985e50
+    grade: 2
+    text: I've been unable to do my speaking exercises for MONTHS now, and my mic' works just fine. It USED TO BE a fun way
+      to learn the basics of a new language, but something feels off recently, especially with the "updated" extra units.
+      I'm pondering leaving this app...
+- id: chess-course
+  text: learning chess
+  judgments:
+  - store: app_store
+    id: '14524986384'
+    grade: 1
+    text: I hate that bird Seriously though, Duolingo chess is a pitiful game and the Elo rating is all wrong. Could we have
+      a better opponent and the bot level is so bad at adjusting to the player. I mean it is a language app so I guess I’m
+      not supposed to wish for the basics if I just want to play chess while learning German at the same time. Otherwise a
+      good app although I think the approach towards getting people to “extend their streak” by battering them with notifications
+      is annoying. Please sign me up to a boxing match with that owl.
+  - store: app_store
+    id: '14530658330'
+    grade: 1
+    text: Streak 12! Very good learning game I love chess update
+  - store: app_store
+    id: '14535346039'
+    grade: 2
+    text: OMG This app is the best Im learning chess and it’s so fun and an easy way to learn fun languages and if I want
+      to go some where I could learn the language thanks so much Duooo!!!!
+  - store: app_store
+    id: '14536431721'
+    grade: 2
+    text: I love playing chess and learning Spanish with Duolingo! I love how it’s animated and like how it makes it kinda
+      easy to win! And Duolingo helps me a lot, all you have to do is, play easy, have fun, and do whatever!
+  - store: app_store
+    id: '14536964865'
+    grade: 2
+    text: Duolingo review Duolingo is probably one of the best language apps in the world. Me and my cousins are learning
+      chess and are already successful.
+  - store: app_store
+    id: '14538773652'
+    grade: 2
+    text: Duolingo so far I’ve been learning chess on this app. It’s super fun and very easy. I haven’t downloaded super but
+      if I do, it will make it way easier as well so we should try that. Five stars
+  - store: app_store
+    id: '14539666052'
+    grade: 2
+    text: Best learning app ever Chess is helping me beat my friends at school in chess
+  - store: app_store
+    id: '14539896768'
+    grade: 2
+    text: チェス チェス楽しい。
+  - store: app_store
+    id: '14540440212'
+    grade: 2
+    text: So good I am now on the chess team because of Duolingo. It took me 100 days to pro at chess but I am still learning
+      some more skills.
+  - store: google_play
+    id: 0315396a-5b80-41c7-8e1d-a6b65e9ccec1
+    grade: 2
+    text: I really love learning chess
+  - store: google_play
+    id: 08992a9c-e223-4f6b-bf72-9222cc4a95bb
+    grade: 2
+    text: it's the best app for learning languages and for learning chess music and any class of math I like it
+  - store: google_play
+    id: 327db86b-d066-4427-8d59-9777aa4dcce7
+    grade: 2
+    text: muito legal adoro aprender xadrez ♟️
+  - store: google_play
+    id: 5e1c9bdf-6cf3-4a33-8583-44914a5b1e76
+    grade: 2
+    text: estoy practicando ajedrez y resultó que ahora soy bueno en ajedrez
+  - store: google_play
+    id: 66c94b1d-4ac1-4bd3-9e40-917f58d4551b
+    grade: 2
+    text: to treinando xadrez e ta uma maravilha
+  - store: google_play
+    id: 6f49dab2-756f-43ba-91ab-5922a9e5d628
+    grade: 2
+    text: its fun learning chess and languages
+  - store: google_play
+    id: 87861e34-7ece-48a0-a74d-797cba0451d5
+    grade: 2
+    text: Enjoying learning languages, mathematics, music and chess.
+  - store: google_play
+    id: 980049fc-8323-413c-88d8-3e2f8b06b474
+    grade: 2
+    text: it's good for learning languages and chess especially
+  - store: google_play
+    id: ae1522f2-71b0-4b59-be13-22ca18394b6f
+    grade: 2
+    text: ich finde doulingo wo man schach lehrnen kann sehr toll da schach ein tolles spiel ist und ich nicht sehr viele
+      leuge kenne die schach gerne spielen mit den spielen gegen andere echte schach spieler, spielt man nocht nur gegen eine
+      KI das finde ich gut
+  - store: google_play
+    id: e2baea68-2648-44b3-ada7-bcde174a5ea5
+    grade: 2
+    text: it's a funny and good game for learning chess also
+  - store: google_play
+    id: f3f0b909-962e-4f25-a165-b06aed816270
+    grade: 2
+    text: chess learning is awesome for beginners
+  - store: google_play
+    id: fa2ca752-1836-4c3e-817c-055eaed7eccf
+    grade: 2
+    text: Nice app for learning languages and chess
+- id: math-music
+  text: math and music courses
+  judgments:
+  - store: app_store
+    id: '14529443463'
+    grade: 2
+    text: Мені подобається Гарно що е курс музики математики та шахи теж багато мов
+  - store: app_store
+    id: '14535500108'
+    grade: 2
+    text: Ele ensina muito Ele ajuda quando você quer ou precisa aprender outro idioma ou matemática música e xadrez
+  - store: app_store
+    id: '14538713510'
+    grade: 2
+    text: 音楽 チェスのコースと、音楽を主にやっているんですけど、音楽で、ヘ音記号がやりたいのと、あと16部音符のレッスンがあれば、大体の楽譜が読めるようになると思うので、追加をけんとうしてください！お願いします！長文すみませんでした
+  - store: app_store
+    id: '14539287111'
+    grade: 2
+    text: Helping kids It helps kids learn about languages and music,math and more
+  - store: google_play
+    id: 16bad4a5-2d28-4882-8520-57d966eb6f81
+    grade: 2
+    text: Es una de los mejores aplicaciones para aprender inglés o música y matemática
+  - store: google_play
+    id: 358550c2-ee7b-4de6-9a11-bc5b222f6ed4
+    grade: 2
+    text: amei estou aprendendo muito queria que tivesse a versão divisão em matemática estou um pouquinho ruim nela
+  - store: google_play
+    id: 63cf54fc-82e4-48d2-9a4d-751541a4fa0d
+    grade: 2
+    text: Treino Matemática e Xadrez. App viciante.
+  - store: google_play
+    id: 87861e34-7ece-48a0-a74d-797cba0451d5
+    grade: 2
+    text: Enjoying learning languages, mathematics, music and chess.
+  - store: google_play
+    id: f1bfa33c-5b4b-462c-a2b7-4347948d46ca
+    grade: 2
+    text: bom para aprender línguas e matemática
+  - store: google_play
+    id: fd3725a4-7d49-40a5-ab41-1a13a41ac0ea
+    grade: 2
+    text: gracias a duolingo estoy aprendiendo matemáticas y música me encanta
+- id: login-account
+  text: cannot log in to my account
+  judgments:
+  - store: app_store
+    id: '14488331167'
+    grade: 1
+    text: アカウントを削除するときは気をつけて 内容もとても良いですし、言語を学びたい人にとってはピッタリだと思うので、内容に関しては星5です。しかし、星1にした理由はアカウント削除の難しさです。私の場合、アカウント削除の申請をだしたのですが、削除手続きのメールが全く届きませんでした。アプリからその件を問い合わせたのですが、具体的な解決方法は示してくれず、メールが届かない旨を伝えた上で、会社側で私のアカウントを削除してくれないか聞いても、「アカウントの削除はこの方法でできます」という前日に問い合わせた内容の返信と全く同じ文言がメールで送られてきました。何度試してもアカウント削除はできないので、諦めてアプリをアンインストールだけします。なので、これからこのアプリをインストールする人は、アカウント削除ができないこともあるということを念頭に置いておいたほうがいいです
+  - store: app_store
+    id: '14494440653'
+    grade: 1
+    text: Can’t create an account I downloaded the app and started the 7 questions onboarding, but when picking the language
+      I constantly receive an error notification.
+  - store: app_store
+    id: '14528553238'
+    grade: 0
+    text: CEP faz um tempo que tento assinar o plus, porem meu CEP é dado como invalido
+  - store: app_store
+    id: '14534941225'
+    grade: 2
+    text: Great except for one thing This is a really good app, but randomly it kicks me out and won’t let me log back in.
+      Please fix this.
+  - store: app_store
+    id: '14538935051'
+    grade: 0
+    text: いい！ めっちゃまなべる！ アカウント登録すれば！しないと途中でできなくなるけど でもアイコンが怖くなるんですが、💦ずっとやっても治んないのなんで〜？？💦
+  - store: google_play
+    id: 58ed4459-c77c-415d-80af-278fdfdc015e
+    grade: 2
+    text: ich habe mein paswort vergessen und auf meinem doulingo profiel zeigt man mir nur punkte deswegen kann ich nicht
+      mein handy mit meinem tablet nicht verbinden das passwort sollte auf den eigenen profiel zu sehen sein. Sonst alles
+      super.
+  - store: google_play
+    id: 5e99c595-2221-400f-b231-88949cf1a9d1
+    grade: 1
+    text: I can not see my profile
+  - store: google_play
+    id: a4038ce8-5f8c-48cf-8351-b636551a43d7
+    grade: 2
+    text: ログイン出来なくなった
+  - store: google_play
+    id: b4541a98-dd32-406e-9bbc-5fe9908f32d3
+    grade: 0
+    text: しばらくログインしないでいたら、「変わってるね」とかアプリごときが抜かしやがった。大きなお世話だ、AIふぜいが。
+  - store: google_play
+    id: e32ade5f-b9ef-425b-8f08-719f8c81e424
+    grade: 1
+    text: my account not deleted I am so helpless
+- id: notifications
+  text: annoying notifications
+  judgments:
+  - store: app_store
+    id: '14521096320'
+    grade: 2
+    text: めんどい 通知多い
+  - store: app_store
+    id: '14521119234'
+    grade: 1
+    text: サブスク期限の通知なんて来ない 追記です。期限前に通知が来るから大丈夫！なんで試さないの？みたいな広告が延々と繰り返されるけど、あと2日無料で使えるよ！っていうプッシュ通知が1回来るだけなので、大量の通知に紛れて簡単に見落とします。ほかのサービスはちゃんとメールで届きます。あんなの通知とは言えない。いきなりAppleから1年のサブスク引き落としのメールが来て最悪でした。詐欺にあった気分。
+      たまにリマインダーのメッセージが攻撃的すぎて不愉快。最近はアイコンが変な顔で気持ち悪い。これも不愉快。クセが強すぎる。 ちょっと気だるそうなキャラの声の人とか、初学者に不適切な音声は使わないでほしい。またどうしても音声が認識されない単語があるが、何が違うのかわからないので改善できない。
+      ミャオンとか変な名前の人の発音を何回も練習させられたり、おかしな例文があったり、実用的でないところが残念です。もっと一般的な名前のほうが有用性高いですよね。 また、これいくら？とかトイレはどこですか？など、旅行で使うような基本的なフレーズがいつまでも出てこない。
+      また一度認識されて青くなった単語の色が戻ったりするのも意味がわかりません。 あと数字はまとめて覚えたい。バラバラ出てきても規則性がないのでいつまでも覚えられない。
+  - store: app_store
+    id: '14524986384'
+    grade: 1
+    text: I hate that bird Seriously though, Duolingo chess is a pitiful game and the Elo rating is all wrong. Could we have
+      a better opponent and the bot level is so bad at adjusting to the player. I mean it is a language app so I guess I’m
+      not supposed to wish for the basics if I just want to play chess while learning German at the same time. Otherwise a
+      good app although I think the approach towards getting people to “extend their streak” by battering them with notifications
+      is annoying. Please sign me up to a boxing match with that owl.
+  - store: app_store
+    id: '14531321091'
+    grade: 2
+    text: Fun but annoying notifications I have thoroughly enjoyed the content and structure of this app. My only complaint
+      is the aggressive nature of the notifications. I practice daily and it acts like a spurned lover if I don’t open it
+      again 2 hours later. We bought the annual subscription too.
+  - store: app_store
+    id: '14531560867'
+    grade: 0
+    text: Annoying background noise What’s with this annoying background noise ad I’m hearing even after updating to the latest
+      version! I’m trying to study here!!
+  - store: app_store
+    id: '14538091870'
+    grade: 1
+    text: Хватит СПАМИТЬ МОЮ ПОЧТУ Хватит срамить почту не нужными сообщениями
+  - store: google_play
+    id: 0c23d1a7-6025-4e95-a880-56dd3f1a7a29
+    grade: 2
+    text: I love it but the notifications scare me >:[
+  - store: google_play
+    id: 74ffabd5-cd24-48e8-bdff-a29e70373629
+    grade: 2
+    text: notification kinda annoying
+  - store: google_play
+    id: b7a23b09-6164-48fa-9f7e-32745dff9929
+    grade: 2
+    text: Die ständigen Benachrichtigungen nerven etwas
+  - store: google_play
+    id: bb74538a-e770-44c8-a24b-1caf765d2573
+    grade: 0
+    text: Good app, but don't get notifications, even though they are on, and in the app, and generally. Tried everything,
+      keep losing my streaks. I suspect this covert bugs to force people to pay. disappointing.
+  - store: google_play
+    id: c6ced9d6-d1cd-4ef9-b08d-4641e4ab0c00
+    grade: 0
+    text: só os anúncios q e chato
+- id: ai-content
+  text: complaints about AI generated content
+  judgments:
+  - store: app_store
+    id: '14497084693'
+    grade: 2
+    text: KI Müll Völlig sinnbefreite Dialoge und Zusammenhänge. Der Gesamte Content scheint KI generiert zu sein und ergibt
+      überhaupt keinen Sinn. Zusammenhänge und Grammatik werden nicht erklärt. Dazu ständig Werbung und das Fortschrittsystem
+      hat etwas Video- und Glücksspiel Ähnliches.
+  - store: app_store
+    id: '14539275361'
+    grade: 2
+    text: AI ruined it I used to love learning with this app. Now I feel like I cant as now they use AI, and I do not trust
+      any of the information to be correct as AI is, despite the name, not intelligent. Now I just do lessons on my native
+      language so I don't lose my over 400 day streak. Thanks a lot, you ruined a great tool for learning. If my streak werent
+      so big I would uninstall the app. AI is ruining our world.
+  - store: app_store
+    id: '14540002405'
+    grade: 2
+    text: AI Fizzles & Frustrates To let you know I’ve been at this awhile and seen a lot of change… I first heard about this
+      App at a TEDx Conference years ago and loved the concept along with a simple “captcha” technology used to translate
+      written text and make it accessible in many languages online. I’m hoping that the game streaks and competition have
+      NOT taken precedence over being able to read, write, hear, and speak a given language well. Before all the AI seemed
+      to take over, the App seemed more consistent. As I continue to find inconsistencies that persist, the learning experience
+      has grown frustrating and I’m starting to wonder, “Am I really speaking Spanish with anything close to 90+% accuracy
+      the App suggests?” Although difficult to capture all the issues when you’re running through a timed lesson and focusing
+      on learning, following are some of the issues I’ve experienced a lot, so they’re in my memory. Hope you’ll consider
+      fixing them and continue to stay on top of any new ones. Flashcard lessons seem to randomly require “el” or “la” before
+      a term that doesn’t start with “the” in English. Also, “finally” randomly requires “al fin” response and accepts nothing
+      else. Falstaff still periodically uses an American accent in video calls when he’s speaking Spanish. More sentence responses
+      in Spanish are being counted as errors when a different verb that means the same thing in English is used. Most frustrating
+      are that NOT all mistakes are explained, so we can understand how to speak the language better. One improvement that
+      stands out is that sentences with “you” in English are no longer counted as errors if usted, ustedes, or tu are used
+      as long as they’re with the correct verb forms and sentence structure.
+  - store: google_play
+    id: 095364ff-0699-4d8c-ac81-e490054ccb44
+    grade: 2
+    text: Alles ist Gefühlt KI , die Sätze sind oft falsch und wirklich lernen tut man durch die App auch nicht.
+  - store: google_play
+    id: 495df75b-7c5f-4f64-ade9-28a19f3fdad9
+    grade: 1
+    text: Terrible app with AI scam ads and stupid phrases with which you won't learn any languages. Don't waste your time
+      with it.
+  - store: google_play
+    id: 50b86441-cb7e-4d64-a2fd-2db0316b317f
+    grade: 0
+    text: Disgusting app and values
+  - store: google_play
+    id: 717c40c0-4948-480b-95e2-777248598e5b
+    grade: 2
+    text: '⭐⭐☆☆☆Leider verschlechtert: Fokus auf Gamification, Werbung und Abo-Zwang statt echter Grammatik. Durch KI gibt
+      es viele unnatürliche Sätze und starre Fehlerwertungen. Kaum noch Lernfortschritt, nur oberflächliches Punktespiel.'
+  - store: google_play
+    id: dba36452-047d-47eb-937b-774051d4572d
+    grade: 0
+    text: thisapphassomekind of emotional manipulation.likeImissa day and all of a sudden, the app is making me feel like
+      everything I learnt is going to be forgotten in the next hour. like sometimes I am REALLY busy, and really tired. it
+      is good for consistency, but yeah the app tries to manipulate you into using the app every day. they earn enough money,
+      they don't need more money to show us ads because it runs locally, and sometimes on the server depending on the topic
+      or something. Mightnotuseagain
+  - store: google_play
+    id: f11ee943-11f5-47e9-aafa-fe32ded64e20
+    grade: 2
+    text: becoming more and more like pay to win games. ruined by AI
+  - store: google_play
+    id: f531cdf6-4b9e-48c2-ab62-cb77642fde8d
+    grade: 2
+    text: Straight Garbage, What a waste. It used to be really helpfull but wow. Constant grammar and spelling mistakes; low
+      resolution generated ads with weird sentences; constant pings and dings slowing down the entire experience; spamming
+      rewards and even when you pay a constant lush for their useless, mistake filled AI chatbot. What a way to destroy a
+      perfectly good app.
+- id: missing-language
+  text: please add more languages like Hindi
+  judgments:
+  - store: app_store
+    id: '14532284396'
+    grade: 2
+    text: Add Thai Language Please add Thai to your list of languages
+  - store: google_play
+    id: 2dd871d8-132e-416a-a22e-936610ff92d9
+    grade: 0
+    text: el mejor para mejor idiomas
+  - store: google_play
+    id: 35c4a051-a73a-4b2e-921c-8e8e4a87262a
+    grade: 0
+    text: amei e muito bom. Ajuda em várias línguas super recomendo 👍🏻👍🏻
+  - store: google_play
+    id: 4647598f-8812-4440-a3c4-d40e6e123b6b
+    grade: 2
+    text: this is good for leaning new languages . if u could please add the thai also
+  - store: google_play
+    id: 609d2144-b3d2-4b33-b5ee-abda360fa705
+    grade: 2
+    text: precisa de mais linguagem
+  - store: google_play
+    id: 6bfdb38e-19be-4cdc-8e5d-6a84264182dc
+    grade: 2
+    text: this not contains the language of India fully
+  - store: google_play
+    id: 93323e72-e1b6-4a90-aa9d-8d9bc2d75482
+    grade: 1
+    text: Ami me está ayudando se un poco más de idiomas
+  - store: google_play
+    id: c492fb08-8fc9-4391-a3cc-8fe2ebf3e7ea
+    grade: 2
+    text: please add Persian
+  - store: google_play
+    id: dc793bfd-0ad0-4eff-a171-75970a547a54
+    grade: 0
+    text: IT'S BEST FOR LEARNING ENGLISH, HINDI ETC!!!!
+  - store: google_play
+    id: e41a0010-e2ac-463e-8deb-3c2b78c17656
+    grade: 2
+    text: Should Add Thai language
+- id: pt-ads
+  text: muitos anúncios
+  judgments:
+  - store: app_store
+    id: '14533112623'
+    grade: 2
+    text: Реклама Перебор
+  - store: google_play
+    id: 017c2288-e07c-4d2f-ba36-fde793e72bac
+    grade: 2
+    text: to many ads
+  - store: google_play
+    id: 1dded04a-bb10-4843-86f4-20ee1add0acf
+    grade: 0
+    text: aplicativo simples e bem eficaz para aprender vários idiomas e ainda por cima não tem muitos anúncios
+  - store: google_play
+    id: 43e7e9fd-0556-420a-9326-69d314720934
+    grade: 2
+    text: tá aparecendo muito anuncio
+  - store: google_play
+    id: 477469ba-4cf4-4d89-9c09-17adf997a3fa
+    grade: 2
+    text: muito anúncio
+  - store: google_play
+    id: 643b08f2-74b0-4c37-b964-a5a6ceb7517a
+    grade: 2
+    text: Too many ads
+  - store: google_play
+    id: 69dc6aa3-a56a-478f-a095-03e823dd4608
+    grade: 2
+    text: Lot of ads
+  - store: google_play
+    id: a3700ce5-0d9e-4f46-aa1f-d234228245c1
+    grade: 2
+    text: too many ads
+  - store: google_play
+    id: aea28952-6bef-4f75-afcb-f62f2fd42882
+    grade: 2
+    text: Aplicativo bom pra aprendizado, pena que tenha muitos anúncios também.
+  - store: google_play
+    id: b715343a-9045-4ea7-a299-a049a09eb836
+    grade: 2
+    text: São muitos anúncios, cada lição um anúncio, nos de fala acho que poderia melhorar, porque vc pronúncia uma coisa
+      diferente e ele da certo, fazer a 1 licao e tranquilo mas a 2 tem que comprar mais vidas, pq acaba no meio das licoes,
+      em uma tarefa que eu estava fazendo o duolingo deu como errado,e ele deu uma frase como certa, tentei ela dps e foi
+      como errado, ele estava mudando o tipo da frase.
+  - store: google_play
+    id: b93b58bb-26b1-4db7-9372-f44d269d4d09
+    grade: 2
+    text: muitos anúncios
+  - store: google_play
+    id: cb21afad-840c-4d6b-bc51-44234ab4057a
+    grade: 2
+    text: muchos anuncios
+  - store: google_play
+    id: e0ded7bf-96c8-481f-94a2-705482ec04e0
+    grade: 2
+    text: too many ads
+- id: pt-energy
+  text: a energia acaba muito rápido
+  judgments:
+  - store: app_store
+    id: '14493794884'
+    grade: 2
+    text: Es geht Das Spiel an sich geht schön aber das Problem ist, dass die Energie so schnell weg ist und du kannst einfach
+      nicht weitermachen und ich möchte nicht immer 1 Stunde warten, bis ich weitermachen kann.
+  - store: app_store
+    id: '14495893557'
+    grade: 2
+    text: Avaliação geral Aplicativo muito boom, fácil de aprender, uma pena que a energia acaba rápido,acho que deveria ser
+      uma vida por atividade não por resposta.
+  - store: app_store
+    id: '14530586505'
+    grade: 2
+    text: Las energías se acaban muy rápido, era mejor con los corazoncitos :((
+  - store: app_store
+    id: '14530608399'
+    grade: 2
+    text: Energy is terrible Always gives me 1 energy, always 1 energy away from completing a lesson
+  - store: app_store
+    id: '14532450414'
+    grade: 2
+    text: энергия когда сделают чтоб урок можно было закончить когда кончилась энергия или показывали сколько урок энергии
+      заберет будет 5
+  - store: google_play
+    id: 2a09c11e-422c-4fd6-8413-0f945f0bdecb
+    grade: 1
+    text: muito bom, mas adicionaram a energia que acaba com tudo
+  - store: google_play
+    id: 314fc239-ac81-4ea7-b384-d4b6c44723dc
+    grade: 2
+    text: Depois dessa atualização, atrapalhou muito, agora tem energia sério isso? quando era corações dava pra jogar muito
+      mais, mas a energia acaba muito rápido 2 estrelas, me decepcionei...
+  - store: google_play
+    id: 33a7614d-7fcc-41ac-ae4a-5bf51dbe0465
+    grade: 2
+    text: muito bom mas a energia acaba muito rápido
+  - store: google_play
+    id: 3931c986-5cca-4eab-8807-8c5a3ab14215
+    grade: 2
+    text: maravilhoso mas a energia acaba rápido mas o resto é perfeito ♥️
+  - store: google_play
+    id: 474500e7-dd9e-46c0-9114-ca3a1708611e
+    grade: 2
+    text: es bueno lo único malo es que se gasta la energía muy rápido
+  - store: google_play
+    id: 9f95b4ce-956d-4359-8eee-5c5ccbb6b9fe
+    grade: 1
+    text: la publi la baja y lo de la energía también
+  - store: google_play
+    id: b1b2d184-aad6-4af4-bbe8-624602f76825
+    grade: 1
+    text: energy is so bad
+- id: es-price
+  text: demasiado caro
+  judgments:
+  - store: app_store
+    id: '14505297384'
+    grade: 0
+    text: バグり 多すぎる
+  - store: app_store
+    id: '14520304428'
+    grade: 2
+    text: Zu teuer Zu teuer
+  - store: app_store
+    id: '14530106512'
+    grade: 2
+    text: Muito caro o plano Bom, mais é muito caro
+  - store: app_store
+    id: '14541328084'
+    grade: 2
+    text: Good Too expensive
+  - store: google_play
+    id: 01649281-96cc-44b9-b395-125af0b8c1b8
+    grade: 0
+    text: demasiado bueno
+  - store: google_play
+    id: 155ed012-23f1-4296-b651-b1196d76a517
+    grade: 2
+    text: e bom mais vcs fica cobrando demais ta tchau
+  - store: google_play
+    id: 3ee14aa3-311b-48e4-936d-f7503e0a5898
+    grade: 0
+    text: massa demais
+  - store: google_play
+    id: 576a74dd-a5f0-4a15-8ff6-0c3e632fa8a1
+    grade: 0
+    text: top demais
+  - store: google_play
+    id: 8efba6d4-a9cc-442a-bdfd-cab34a0d2c31
+    grade: 0
+    text: renta mucho
+  - store: google_play
+    id: deade91d-3337-4baf-a9a4-a74bb2eaa2d6
+    grade: 0
+    text: maravilhosa demais demais demais e
+- id: es-kids
+  text: mis hijos aprenden inglés
+  judgments:
+  - store: google_play
+    id: 1a068b3c-6c1a-41ad-a51a-42bad47f0f84
+    grade: 1
+    text: me ayuda mucho para aprender ingles
+  - store: google_play
+    id: 4d1c3fb3-8bf6-4c53-b3f7-c3147e8cba78
+    grade: 1
+    text: agora vou aprender inglês na minha escola
+  - store: google_play
+    id: 62b147a9-1bdb-4d5a-acfb-ca213958e370
+    grade: 1
+    text: tô aprendendo inglês nele
+  - store: google_play
+    id: 88436f28-7460-4bbf-a318-c5635fa01a3a
+    grade: 1
+    text: muito bom aprender inglês
+  - store: google_play
+    id: a32131cb-a498-4f5b-a841-63313e9fb82c
+    grade: 1
+    text: aprendo poco a poco inglés
+  - store: google_play
+    id: d558737d-3a9c-46d1-845d-effff74443c7
+    grade: 1
+    text: Aprendi inglés :)
+  - store: google_play
+    id: e79bafbb-474b-4fe2-8307-a1156a0a0e25
+    grade: 1
+    text: this is good to learning english
+  - store: google_play
+    id: ece1679e-a7e8-437d-8f12-520df4152ca9
+    grade: 1
+    text: 英語が学べる
+  - store: google_play
+    id: f0fd5e37-635f-4041-bdc3-f25b0a4c9b9c
+    grade: 1
+    text: eu estou aprendendo a falar inglês
+  - store: google_play
+    id: fc12de2f-ff04-495a-97b6-0308792bf05e
+    grade: 1
+    text: me está ayudando a aprender ingles
+- id: de-ads
+  text: zu viel Werbung
+  judgments:
+  - store: app_store
+    id: '14477249827'
+    grade: 2
+    text: Duolingo ist okay Mir ist das zu viel Werbung, aber sonst ist es gut
+  - store: app_store
+    id: '14489281291'
+    grade: 2
+    text: Zu viel Werbung An sich ist die App nicht schlecht aber es ist einfach immer Werbung und die Energie geht viel zu
+      schnell alle. Man merkt einfach das die App darauf aufgebaut ist das man sich super-duolingo holt.
+  - store: app_store
+    id: '14493278258'
+    grade: 2
+    text: 'Richtig cool Die App ist wirklich Mega und man kann viel lernen! Allerdings ist es mir zu viel Werbung, allerdings
+      finde ich die nicht so schlimm weil es nur Werbung für super Duolingo ist und nicht für sonstige Apps! Eine kleine Sache
+      die ich noch anzumerken habe ist, dass man bestimmte Sprachen wie beispielsweise Dänisch nur auf Englisch lernen kann
+      was das ganze natürlich nochmal erschwert. Ich selber lerne aber Spanisch was man ganz entspannt auf Deutsch lernen
+      kann. Ich habe diese Info nur von Freunden🙃 Trotzdem kann ich die App nur weiterempfehlen und an alle die die Rezensionen
+      lesen bevor sie sich die Apo runterladen: Macht es einfach! Ihr werdet sehen dass man auch ohne Abo fantastisch lernen
+      kann.'
+  - store: app_store
+    id: '14495081584'
+    grade: 2
+    text: Neuerdings Werbung von Shell App. Zu viel Werbung hin und wieder ein paar Tage super Duolingo
+  - store: app_store
+    id: '14506343372'
+    grade: 1
+    text: Abwechslungsreich mit Defiziten Ich übe seit eineinhalb Jahren täglich, hatte vor über dreißig Jahren fünf Jahre
+      Französisch in der Schule. Der Wortschatz bessert sich allmählich. Durch die Abwechslungsreichen Übungen fällt mir die
+      tägliche Einheit nicht schwer. Um die nervige Werbung abzustellen und bei Bedarf auch mal mehr üben zu können hab ich
+      mir die Bezahlversion gegönnt. Allerdings nervt mich immernoch, dass ich immer Max gratis ausprobieren soll. Einmal
+      hat mir gereicht. Das sind wirklich nur stumpfsinnige Dialoge, wobei der Bär auch noch über schlechte Aussprache verfügt.
+      Mir fehlen bei den Übungen fast immer die Artikel, die steigende Schwierigkeit, v.a. bei den Dialogen. Wenn man nur
+      zum Sprechen lernen eine App sucht, ist Duolingo (noch) nicht geeignet genug. Zu wenig und zu einfache Sprechübungen,
+      zu viel Korrekturen bei der Schreibweise.
+  - store: app_store
+    id: '14510587430'
+    grade: 2
+    text: Super Duolingo Wenn man kein super hat ist es viel zu viel Werbung
+  - store: app_store
+    id: '14510875135'
+    grade: 0
+    text: Duolingo ist schön aber…… Duolingo ist schön, aber das einzigste was ich an Duolingo nicht toll finde ist dass wenn
+      man lernen möchte und keine Batterie mehr hat. Also dass die Batterie leer ist und man nicht so viele Edelsteine dafür
+      hat, kann man nicht mehr so gut lernen. Das einzigste, was ich bitten würde, ist, wenn also was besser wäre, ist das
+      Duolingo auch für die Leute unendlich Batterie macht die das nicht bezahlen kann oder dafür Geld aufgeben wollen aber
+      sonst finde ich die App sehr schön. Die Werbung ist nicht so ein großes Problem aber es geht mir eigentlich nur um die
+      Batterie zum lernen. Da ist noch eine Sache die schon bisschen gruseligste und zwar so gegen Abend 22:00 Uhr oder so
+      ist auf den Cover Duo mit einem Lichtstrahl sorry aber das sieht schon bisschen gruselig aus Und diese Nachichten Ist
+      ja ok aber die werden auch als gruseliger wenn du einen Tag nicht geübt hast schickt dir Duo eine Nachicht Abends und
+      das auch noch als Skelett oder andere Dinge die auch für andere vieleicht viel zu extrem waren weil sie gucken wollten
+      wie viel Uhr es ist,sie im Dunklen im Bett liegen und dann so eine Crepy Nachicht lesen
+  - store: app_store
+    id: '14521747070'
+    grade: 2
+    text: Zu viel Werbung Die Werbung nervt man könnte auch bisschen weniger Werbung machen statt nach jeder Lektion
+  - store: app_store
+    id: '14532709452'
+    grade: 2
+    text: 广告太多！！！ 广告多的要死，不充会员就一直骚扰
+  - store: app_store
+    id: '14534286750'
+    grade: 2
+    text: Zu viel Werbung Grundsätzlich finde ich den Ansatz und die App gut, es ist aber einfach zu viel Werbung für meinen
+      Geschmack und das nervt maximal
+  - store: google_play
+    id: 0943038e-d49b-4a06-aab6-775b2074e01a
+    grade: 2
+    text: viel zu viel Werbung für duolingo plus aber macht sehr sehr viel Spaß und hilft auch sehr viel
+  - store: google_play
+    id: 0fd07111-7daa-4b50-99cb-ce12e7106dd5
+    grade: 2
+    text: es genial pero trae demasiados anuncios
+  - store: google_play
+    id: 643b08f2-74b0-4c37-b964-a5a6ceb7517a
+    grade: 2
+    text: Too many ads
+  - store: google_play
+    id: 69dc6aa3-a56a-478f-a095-03e823dd4608
+    grade: 2
+    text: Lot of ads
+  - store: google_play
+    id: a21e37b8-2b00-4572-a7ba-28bb60c5a436
+    grade: 2
+    text: many ad 😡 Big problem
+  - store: google_play
+    id: a3700ce5-0d9e-4f46-aa1f-d234228245c1
+    grade: 2
+    text: too many ads
+  - store: google_play
+    id: b93b58bb-26b1-4db7-9372-f44d269d4d09
+    grade: 2
+    text: muitos anúncios
+  - store: google_play
+    id: cb21afad-840c-4d6b-bc51-44234ab4057a
+    grade: 2
+    text: muchos anuncios
+  - store: google_play
+    id: e0ded7bf-96c8-481f-94a2-705482ec04e0
+    grade: 2
+    text: too many ads
+- id: ja-praise
+  text: 毎日楽しく勉強できる
+  judgments:
+  - store: app_store
+    id: '14497845271'
+    grade: 2
+    text: 楽しい 毎日少しずつ学べる
+  - store: app_store
+    id: '14505471850'
+    grade: 2
+    text: 最高！ 毎日楽しく続ける
+  - store: app_store
+    id: '14529226112'
+    grade: 2
+    text: なかなか楽しい 毎日、楽しく英会話を勉強出来ます
+  - store: app_store
+    id: '14541148514'
+    grade: 1
+    text: 学びの毎日 継続は力なり！
+  - store: google_play
+    id: 0629617b-f150-42f0-9d4f-05d4e6392abf
+    grade: 2
+    text: いろいろな勉強ができて楽しくて、最高です。
+  - store: google_play
+    id: 38e9a074-13a6-487a-9dca-81dedabb4401
+    grade: 2
+    text: 楽しく勉強しています。
+  - store: google_play
+    id: 6e5aa1de-07ab-4770-9742-7d1e38e5f624
+    grade: 1
+    text: aprendes mucho cada día
+  - store: google_play
+    id: d33e9ef1-5957-4e74-acf4-41375d608949
+    grade: 2
+    text: es super bueno cada día aprendo más
+  - store: google_play
+    id: ec3079bf-7a1b-474e-856e-36aed9cdc76a
+    grade: 2
+    text: me encanta aprendo mucho cada día
+  - store: google_play
+    id: f517c9da-d3be-40d5-80d3-3cf380dddfab
+    grade: 2
+    text: muito bom aprendi muito todos os dias
+- id: travel
+  text: helped me prepare for a trip abroad
+  judgments:
+  - store: app_store
+    id: '14541085581'
+    grade: 2
+    text: Quero viajar para a europa Ele me faz aprender muito e ainda me preparar pra ir pra Itália
+  - store: google_play
+    id: 0e2ce792-d642-4c1d-a63d-257b64a8110b
+    grade: 0
+    text: me ayuda mucho recomendable
+  - store: google_play
+    id: 5575e48b-83e0-4c76-8fe0-aeff6675f26e
+    grade: 2
+    text: muito bom amei aprendi muito rápido e recomendo para quem viaja para outros países 🌷❤️🫶🏻
+  - store: google_play
+    id: 66ccab62-984c-45cd-988a-87c9bc98511b
+    grade: 0
+    text: Muy entretenido y me ayuda a aprender inglés y idiomas extranjeros
+  - store: google_play
+    id: 9d76d343-e0e2-47f3-bb8c-8a79c07ebfe6
+    grade: 1
+    text: Portugese Went Hard To easy If I Was This Flunet I Would Have Traveled in The Future To Portugal Since I Live In
+      Europe
+  - store: google_play
+    id: cc5f4495-d8f7-48ff-8206-95673f4cdc31
+    grade: 2
+    text: It works well if your traveling to a different country or somewhere that speaks a different language
+  - store: google_play
+    id: d182cc3d-c21e-4c5a-85a3-e2a91f8a1e3b
+    grade: 2
+    text: muy bueno para viajar
+  - store: google_play
+    id: e3253cef-ac3c-48eb-ad49-fe792f1d6149
+    grade: 1
+    text: This has gave me the opportunity 😀 to do work in foreign country . I am very happy with this aap 😁
+  - store: google_play
+    id: efc07aaa-9bfc-487d-8653-4b669462211c
+    grade: 0
+    text: me ayuda a estudiar para mi examen de inglés 😌😌😌
+  - store: google_play
+    id: f9c24634-cd29-4671-a541-39e9e72b31a2
+    grade: 2
+    text: practicando portugués y es bastante eficiente para ir de viajes 😘😌
+- id: leagues
+  text: leaderboard and league competition
+  judgments:
+  - store: app_store
+    id: '14482068868'
+    grade: 2
+    text: It’s good But we need more leagues because it’s getting boring in diamond league and the other leagues need a Turnier
+      too
+  - store: app_store
+    id: '14490177283'
+    grade: 1
+    text: リーグ留まりについて 連打しててジェムごっそり失ったのでボタンの位置反対にできないでしょうか
+  - store: app_store
+    id: '14491609377'
+    grade: 1
+    text: バグ？ フレンドの名前がリーグに入ると変わった。
+  - store: app_store
+    id: '14492242105'
+    grade: 1
+    text: クエスト多すぎ 月間チャレンジのクエスト60って多すぎやわ。プロフィール非公開でリーグもフレンズも不参加やから60もやるの無理や。モチベーション下がるだけ。50でも多いと思ってたのに、さらに増やさんで。30くらいがちょうどいいと思う。ってか人によって数変えるなや。出来る月とできひん月があるやんな。今まだハートのライフやけど、バッテリーになったらほぼ無理ゲーになると思うので、それは変えんといてね。
+  - store: app_store
+    id: '14493641801'
+    grade: 2
+    text: とても楽しいです！ いつも楽しんでプレイしていますが、クラブリーグのシステムのせいでプレッシャーがかかり義務感が生まれてしまうのが不快です。クラブリーグへの参加が任意になると嬉しいです。
+  - store: app_store
+    id: '14500501779'
+    grade: 2
+    text: ダイヤモンドリーグのトーナメントって？ いつもDuolingoを使わせていただいています。 一番上のダイヤモンドトーナメントリーグまでいったものの、なんかわかりません
+  - store: app_store
+    id: '14535778345'
+    grade: 1
+    text: いい感じ 分かりやすいし、間違えたところはちゃんとやり直せる。コツコツやればリーグも上がるし、リーグのい1番上が合格できたら何かあったら面白そう♥️
+  - store: google_play
+    id: 23e71342-7fd6-4aa6-afa3-58e777608f80
+    grade: 0
+    text: the best game
+  - store: google_play
+    id: 59f3d0f0-200e-46e4-bea3-8cce281a6f22
+    grade: 0
+    text: the best game
+  - store: google_play
+    id: 63215a09-7fa5-442f-878a-6836e60ea10a
+    grade: 2
+    text: Gosto bastante do sistema de ligas do Duolingo e acho a competição por XP muito divertida. Porém, acho que a comemoração
+      para quem termina em 1º lugar poderia ser muito mais especial. Depois de passar a semana inteira estudando e competindo
+      para chegar ao topo, receber apenas uma mensagem simples de “Parabéns, você ficou em 1º lugar” acaba sendo pouco motivador.
+      Poderia haver uma comemoração maior, com confetes, troféu, animação especial e recompensas que incentivassem o usuário.

@@ -1,0 +1,52 @@
+# App catalog: which apps to track, where they are listed, and which markets to ingest.
+#
+# `markets` pairs a storefront country (ISO 3166-1 alpha-2) with the review language
+# (ISO 639-1). The App Store feed is partitioned by country only; Google Play is
+# partitioned primarily by language, so both fields matter.
+
+apps:
+  - slug: duolingo
+    name: Duolingo
+    listings:
+      google_play: com.duolingo
+      app_store: "570060128"
+    # Fills {support_contact} in drafted replies.
+    support_contact: support.duolingo.com
+    markets:
+      - { country: us, language: en }
+      - { country: gb, language: en }
+      - { country: de, language: de }
+      - { country: br, language: pt }
+      - { country: es, language: es }
+      - { country: jp, language: ja }
+
+  # Language-learning apps whose developers reply to most Google Play reviews. Their replies
+  # are training data for reply drafting (Duolingo itself does not reply). Replies are only
+  # published on Google Play; the App Store feed carries none.
+  - slug: babbel
+    name: Babbel
+    listings:
+      google_play: com.babbel.mobile.android.en
+    markets:
+      - { country: us, language: en }
+      - { country: de, language: de }
+      - { country: es, language: es }
+      - { country: br, language: pt }
+
+  - slug: mondly
+    name: Mondly
+    listings:
+      google_play: com.atistudios.mondly.languages
+    markets:
+      - { country: us, language: en }
+      - { country: de, language: de }
+      - { country: es, language: es }
+      - { country: br, language: pt }
+
+  - slug: memrise
+    name: Memrise
+    listings:
+      google_play: com.memrise.android.memrisecompanion
+    markets:
+      - { country: us, language: en }
+      - { country: de, language: de }

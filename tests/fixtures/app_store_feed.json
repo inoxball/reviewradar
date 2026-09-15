@@ -1,0 +1,54 @@
+{
+  "feed": {
+    "author": {
+      "name": { "label": "iTunes Store" },
+      "uri": { "label": "http://www.apple.com/itunes/" }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": { "label": "https://itunes.apple.com/us/reviews/id1000001" },
+          "name": { "label": "sample-user-1" },
+          "label": ""
+        },
+        "updated": { "label": "2026-09-12T08:33:38-07:00" },
+        "im:rating": { "label": "2" },
+        "im:version": { "label": "7.139.0" },
+        "id": { "label": "90000000001" },
+        "title": { "label": "Streak lost after update" },
+        "content": {
+          "label": "The app crashed mid-lesson and my 400 day streak is gone.",
+          "attributes": { "type": "text" }
+        },
+        "im:voteSum": { "label": "3" },
+        "im:voteCount": { "label": "4" },
+        "im:contentType": { "attributes": { "term": "Application", "label": "Application" } }
+      },
+      {
+        "author": {
+          "uri": { "label": "https://itunes.apple.com/us/reviews/id1000002" },
+          "name": { "label": "sample-user-2" },
+          "label": ""
+        },
+        "updated": { "label": "2026-09-11T22:10:00-07:00" },
+        "im:rating": { "label": "5" },
+        "im:version": { "label": "7.138.1" },
+        "id": { "label": "90000000002" },
+        "title": { "label": "" },
+        "content": {
+          "label": "Love the new speaking exercises.",
+          "attributes": { "type": "text" }
+        },
+        "im:voteSum": { "label": "0" },
+        "im:voteCount": { "label": "0" }
+      },
+      {
+        "author": { "name": { "label": "sample-user-3" } },
+        "updated": { "label": "2026-09-11T20:00:00-07:00" },
+        "im:rating": { "label": "five" },
+        "id": { "label": "90000000003" },
+        "content": { "label": "Malformed rating should be skipped." }
+      }
+    ]
+  }
+}
